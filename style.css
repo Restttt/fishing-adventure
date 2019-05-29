@@ -155,14 +155,14 @@ body {
   font-size: 2em;
   font-weight: 700;
 
-  margin-bottom: .8em;
+  margin-bottom: 1em;
 }
 
 .closing-list > li {
   margin-left: 9px;
   color: #4e4e4e;
 
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.3em;
 
   margin-bottom: .5em;
