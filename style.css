@@ -323,6 +323,7 @@ body {
     flex-direction: column;
 
     width: 75%;
+    max-width: 400px;
     margin: 0 auto;
   }
 
