@@ -1,0 +1,177 @@
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding-bottom: 10vh;
+}
+
+.top {
+  height: 600px;
+  width: 100%;
+
+  background-image: url("./images/Ocean.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.top-title {
+  background: #1F5BA8;
+
+  margin-bottom: -4.5vh;
+  height: 65px;
+  width: 460px;
+  padding-top: 1vh;
+  padding-bottom: 4vh;
+  
+  color: white;
+  line-height: 2.5em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-title > h5 {
+  font-size: 1.8em;
+}
+
+.top-title > h3 {
+  font-size: 2.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+
+.about-box {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 7em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-box > h1 {
+  font-size: 6em;
+  letter-spacing: 2px;
+
+  padding-bottom: .1em;
+  border-bottom: 2px solid #FF8210;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1F5BA8;
+
+  margin-bottom: 100px;
+}
+
+.about-box p {
+  font-size: 2.562em;
+  color: #666666;
+  line-height: 1.4em;
+}
+
+.image-display {
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 30em;
+}
+
+.display-figure > img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.List-Box {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
+
+  text-align: center;
+  color: #666666;
+}
+
+#including-box {
+  margin: 5em auto;
+}
+
+.box-title {
+  color: #FF8210 !important;
+
+  font-size: 3em;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-bottom: .5em;
+}
+
+.includes-list > li {
+  line-height: 1.75em;
+  font-size: 2.562em;
+}
+
+.divider-image {
+  width: 100%;
+  height: 40em;
+
+  background-image: url("./images/fish.jpg");
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 7.5em;
+}
+
+.package-list > li {
+  line-height: 1.75em;
+  font-size: 2.562em;
+  font-weight: 300;
+}
+
+#schedule-list > li {
+  color: #5e5e5e;
+}
+
+#plug-box {
+  margin: 5em auto;
+}
+
+.closing-box {
+  width: 50%;
+  margin-left: 20%;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.closing-box > h2 {
+  color: #1F5BA8;
+  font-size: 2em;
+  font-weight: 700;
+
+  margin-bottom: .8em;
+}
+
+.closing-list > li {
+  margin-left: 9px;
+  color: #4e4e4e;
+
+  font-size: 1.1em;
+  line-height: 1.3em;
+
+  margin-bottom: .5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.closing-list > li:before {
+  content: "-";
+  position: absolute;
+  margin-left: -9px;
+}
+
