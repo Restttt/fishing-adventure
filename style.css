@@ -136,6 +136,10 @@ body {
   font-weight: 300;
 }
 
+.package-toUpper {
+  text-transform: uppercase;
+}
+
 #schedule-list > li {
   color: #5e5e5e;
 }
